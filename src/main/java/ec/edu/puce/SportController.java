@@ -51,6 +51,7 @@ public class SportController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
 
+    @Path("/crear")
     public Response crearJugadorBasico(JugadorBasico jugador){
        // JugadorBasico jugadorBasico = new JugadorBasico(2,"Diana",LocalDate.now());
        // System.out.println("El jugador basico tiene el codigo %d, su nombre es %s y su fecha de nacimiento es %s"
